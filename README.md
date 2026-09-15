@@ -12,7 +12,8 @@ WiFi Hotspot Dashboard
 
 A Laravel-based dashboard for managing a MikroTik WiFi HotSpot with FreeRADIUS, RADIUS accounting, SMS OTP authentication, user management, and session monitoring.
 
-Features
+### *Features*
+--------
 MikroTik HotSpot integration
 FreeRADIUS authentication
 RADIUS accounting
@@ -23,9 +24,10 @@ Session history
 Data usage tracking
 Dashboard
 Audit logging
---------------
---------------
-Requirements
+
+
+###*Requirements*
+-----------
 Ubuntu Server
 PHP
 Laravel
@@ -33,7 +35,7 @@ MariaDB/MySQL
 FreeRADIUS
 MikroTik RouterOS
 SMS provider
---------------
+
 ### 1. Ubuntu Server Setup
 ### 2. MariaDB Setup
 ### 3. FreeRADIUS Installation
