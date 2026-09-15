@@ -6,45 +6,53 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
-
-WiFi Hotspot Dashboard
-----------------------
+# WiFi Hotspot Dashboard
 
 A Laravel-based dashboard for managing a MikroTik WiFi HotSpot with FreeRADIUS, RADIUS accounting, SMS OTP authentication, user management, and session monitoring.
 
-### *Features*
---------
-###MikroTik HotSpot integration
-###FreeRADIUS authentication
-###MRADIUS accounting
-###MSMS OTP authentication
-###MWiFi user management
-###MActive session monitoring
-###MSession history
-###MData usage tracking
-###MDashboard
-###MAudit logging
+## Features
 
+- MikroTik HotSpot integration
+- FreeRADIUS authentication
+- RADIUS accounting
+- SMS OTP authentication
+- WiFi user management
+- Active session monitoring
+- Session history
+- Data usage tracking
+- Dashboard
+- Audit logging
 
-###*Requirements*
------------
-Ubuntu Server
-PHP
-Laravel
-MariaDB/MySQL
-FreeRADIUS
-MikroTik RouterOS
-SMS provider
+## Requirements
+
+- Ubuntu Server
+- PHP
+- Laravel
+- MariaDB / MySQL
+- FreeRADIUS
+- MikroTik RouterOS
+- SMS provider
+
+## Setup and Installation
 
 ### 1. Ubuntu Server Setup
+
 ### 2. MariaDB Setup
+
 ### 3. FreeRADIUS Installation
+
 ### 4. FreeRADIUS Database Setup
+
 ### 5. FreeRADIUS SQL Configuration
+
 ### 6. MikroTik ↔ FreeRADIUS Configuration
+
 ### 7. MikroTik HotSpot Configuration
+
 ### 8. HotSpot Login Configuration
+
 ### 9. SMS OTP Provider Configuration
+
 ### 10. Laravel Application Setup
 
 ## Authentication Flow
@@ -61,6 +69,8 @@ SMS provider
 
 ## Security Notes
 
-*These are the Major steps. You can configure it easily with assist of GPT.*
+> These are the major setup steps. You can configure the system with the assistance of GPT or other technical documentation.
 
-*This is a free version. Clone it and use it for free.!*
+## License
+
+This project is provided free of charge. You are free to clone.
