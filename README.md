@@ -44,6 +44,6 @@
 
 ## Security Notes
 
-These are the Major step. You can configure it easily with assist of GPT. 
+These are the Major steps. You can configure it easily with assist of GPT. 
 
 This is a free version. Clone it and use it for free.!
