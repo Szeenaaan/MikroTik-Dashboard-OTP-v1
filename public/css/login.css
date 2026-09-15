@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    background: #f2f2f0;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.auth-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+.auth-card {
+    width: 100%;
+    max-width: 400px;
+    padding: 38px;
+    background: #fafaf8;
+    border: 1px solid #dededb;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.auth-header {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.auth-header h1 {
+    margin: 0 0 8px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #2f2f2f;
+}
+
+.auth-header p {
+    margin: 0;
+    color: #777777;
+    font-size: 14px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #4b4b4b;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.form-group input {
+    width: 100%;
+    height: 46px;
+    padding: 0 13px;
+    border: 1px solid #ccccca;
+    border-radius: 7px;
+    background: #ffffff;
+    color: #333333;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-group input:focus {
+    border-color: #888888;
+    box-shadow: 0 0 0 3px rgba(100, 100, 100, 0.1);
+}
+
+button[type="submit"] {
+    width: 100%;
+    height: 46px;
+    border: none;
+    border-radius: 7px;
+    background: #4a4a4a;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, opacity 0.2s;
+}
+
+button[type="submit"]:hover {
+    background: #363636;
+}
+
+button[type="submit"]:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.response-message {
+    min-height: 20px;
+    margin-bottom: 12px;
+    text-align: center;
+    font-size: 14px;
+    color: #555555;
+}
+
+.form-switch {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    color: #777777;
+}
+
+.form-switch button {
+    padding: 0;
+    border: none;
+    background: transparent;
+    color: #444444;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.form-switch button:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .auth-page {
+        padding: 16px;
+    }
+
+    .auth-card {
+        padding: 30px 22px;
+    }
+}

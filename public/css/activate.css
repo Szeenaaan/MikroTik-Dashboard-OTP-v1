@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f4f3f0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+.activation-container {
+    width: 100%;
+    max-width: 420px;
+    padding: 20px;
+}
+
+.activation-card {
+    background: #ffffff;
+    border: 1px solid #d8d8d8;
+    border-radius: 12px;
+    padding: 35px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+}
+
+.activation-card h1 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    color: #2f2f2f;
+}
+
+.activation-description {
+    margin-bottom: 28px;
+    text-align: center;
+    color: #777;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+}
+
+.form-group input {
+    width: 100%;
+    height: 46px;
+    padding: 0 13px;
+    border: 1px solid #cfcfcf;
+    border-radius: 7px;
+    background: #fafafa;
+    color: #333;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-group input:focus {
+    border-color: #888;
+    background: #fff;
+    box-shadow: 0 0 0 3px rgba(120, 120, 120, 0.12);
+}
+
+.activation-button {
+    width: 100%;
+    height: 46px;
+    border: none;
+    border-radius: 7px;
+    background: #555;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.activation-button:hover {
+    background: #3f3f3f;
+}
+
+.activation-button:disabled {
+    background: #aaa;
+    cursor: not-allowed;
+}
+
+.activation-message {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+}
+
+@media (max-width: 480px) {
+    .activation-container {
+        padding: 15px;
+    }
+
+    .activation-card {
+        padding: 28px 22px;
+    }
+
+    .activation-card h1 {
+        font-size: 23px;
+    }
+}
